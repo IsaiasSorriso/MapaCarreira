@@ -814,6 +814,7 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
+  padding: 5px;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
@@ -11762,7 +11763,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .theme-progress-bar-dark {
-  background-color: #80425F;
+  /* background-color: #80425F; */
 }
 
 .resume-wrapper {
@@ -11775,7 +11776,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header {
-  background: #80425F;
+  background: #0b035a;
   color: rgba(255, 255, 255, 0.9);
   height: 220px;
 }
@@ -11819,7 +11820,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
-  color: #80425F;
+  color: #0b035a;
 }
 
 .resume-section-title:after {
@@ -11845,7 +11846,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   display: inline-block;
   width: 3px;
   height: 100%;
-  background: #d9b5c6;
+  background: #8d82f5;
   left: 6px;
   top: 4px;
   position: absolute;
@@ -11859,7 +11860,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   top: 3px;
   width: 15px;
   height: 15px;
-  border: 4px solid #a25378;
+  border: 4px solid #5b53a2;
   background: white;
   border-radius: 50%;
 }
