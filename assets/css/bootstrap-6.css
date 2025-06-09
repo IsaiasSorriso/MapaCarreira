@@ -173,6 +173,15 @@
   --bs-form-invalid-border-color: #ea868f;
 }
 
+
+
+.secondary-info{
+
+}
+
+
+
+
 *,
 *::before,
 *::after {
@@ -669,6 +678,13 @@ progress {
 }
 
 .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.list-unstyled1{
   padding-left: 0;
   list-style: none;
 }
